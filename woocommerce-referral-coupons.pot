@@ -1,0 +1,499 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Referral Coupons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 18:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/wrc-ajax.php:34
+#, php-format
+msgid "Created %s new coupons."
+msgstr ""
+
+#: includes/wrc-ajax.php:97
+msgid "All coupons succesfully updated"
+msgstr ""
+
+#: includes/wrc-ajax.php:99
+msgid "Couldn't update these coupons:"
+msgstr ""
+
+#: includes/wrc-ajax.php:110
+msgid "Referral coupons are now enabled."
+msgstr ""
+
+#: includes/wrc-ajax.php:113
+msgid "Referral coupons are now disabled."
+msgstr ""
+
+#: includes/wrc-ajax.php:123
+msgid "Prize coupons are now enabled."
+msgstr ""
+
+#: includes/wrc-ajax.php:126
+msgid "Prize coupons are now disabled."
+msgstr ""
+
+#: includes/wrc-ajax.php:162
+msgid "All coupons succesfully deleted."
+msgstr ""
+
+#: includes/wrc-ajax.php:164
+msgid "Couldn't delete these coupons: "
+msgstr ""
+
+#: includes/wrc-options-validation.php:9
+#: includes/wrc-options-validation.php:143
+msgid "Coupon prefix must not be empty. Assigned default value."
+msgstr ""
+
+#: includes/wrc-options-validation.php:17
+#: includes/wrc-options-validation.php:151
+msgid "Coupon discount type must not be empty. Assigned default value."
+msgstr ""
+
+#: includes/wrc-options-validation.php:25
+#: includes/wrc-options-validation.php:159
+msgid "Coupon ammount must not be empty. Assigned default value."
+msgstr ""
+
+#: includes/wrc-options-validation.php:28
+#: includes/wrc-options-validation.php:162
+msgid "Coupon amount must be a number. Assigned default value."
+msgstr ""
+
+#: includes/wrc-options-validation.php:31
+#: includes/wrc-options-validation.php:165
+msgid "Coupon ammount must be greater than 0. Assigned default value."
+msgstr ""
+
+#: includes/wrc-options-validation.php:34
+msgid ""
+"Coupon ammount must be less than 100 percent discount. Assigned default "
+"value."
+msgstr ""
+
+#: includes/wrc-options-validation.php:52
+#: includes/wrc-options-validation.php:186
+msgid "Coupon usage limit must be a number."
+msgstr ""
+
+#: includes/wrc-options-validation.php:55
+#: includes/wrc-options-validation.php:189
+msgid "Coupon usage limit must be greater than 0."
+msgstr ""
+
+#: includes/wrc-options-validation.php:65
+#: includes/wrc-options-validation.php:199
+msgid "Coupon expiry days must be a number."
+msgstr ""
+
+#: includes/wrc-options-validation.php:68
+#: includes/wrc-options-validation.php:202
+msgid "Coupon expiry days must be grater than 1"
+msgstr ""
+
+#: includes/wrc-options-validation.php:81
+#: includes/wrc-options-validation.php:214
+msgid "Coupon apply before tax use must not be empty. Assigned default value."
+msgstr ""
+
+#: includes/wrc-options-validation.php:90
+#: includes/wrc-options-validation.php:223
+msgid "Coupon usage limit per user must be a number."
+msgstr ""
+
+#: includes/wrc-options-validation.php:93
+#: includes/wrc-options-validation.php:226
+msgid "Coupon usage limit per user must be greater than 0."
+msgstr ""
+
+#: includes/wrc-options-validation.php:103
+#: includes/wrc-options-validation.php:236
+msgid "Coupon minimum amount must be a number."
+msgstr ""
+
+#: includes/wrc-options-validation.php:106
+#: includes/wrc-options-validation.php:239
+msgid "Coupon minimum amount must be greater than 0."
+msgstr ""
+
+#: includes/wrc-options-validation.php:116
+#: includes/wrc-options-validation.php:249
+msgid "Coupon maximum amount must be a number."
+msgstr ""
+
+#: includes/wrc-options-validation.php:119
+#: includes/wrc-options-validation.php:252
+msgid "Coupon maximum amount must be greater than 0."
+msgstr ""
+
+#: includes/wrc-options-validation.php:168
+msgid ""
+"Coupon discount ammount must be less than 100 percent discount. Assigned "
+"default value."
+msgstr ""
+
+#: includes/wrc-options-validation.php:176
+msgid "Coupon individual use must not be empty. Assigned default value."
+msgstr ""
+
+#: includes/wrc-scripts.php:27
+msgid "Referral Coupons"
+msgstr ""
+
+#. Name of the plugin
+#: includes/wrc-scripts.php:35
+msgid "WooCommerce Referral Coupons"
+msgstr ""
+
+#: includes/wrc-scripts.php:44
+msgid "Welcome"
+msgstr ""
+
+#: includes/wrc-scripts.php:45
+msgid "Referral Coupon"
+msgstr ""
+
+#: includes/wrc-scripts.php:46
+msgid "Prize Coupon"
+msgstr ""
+
+#: includes/wrc-scripts.php:47 includes/wrc-scripts.php:70
+msgid "Generate coupons"
+msgstr ""
+
+#: includes/wrc-scripts.php:54
+msgid ""
+"This plugin generates coupons for registered users. When an order with a "
+"referral coupon is completed, the referrer will recieve a new coupon for him."
+msgstr ""
+
+#: includes/wrc-scripts.php:55
+msgid "How does it work?"
+msgstr ""
+
+#: includes/wrc-scripts.php:57
+msgid "<b>User \"A\"</b> registers on website"
+msgstr ""
+
+#: includes/wrc-scripts.php:58
+msgid "A unique coupon is generated for <b>user \"A\"</b>"
+msgstr ""
+
+#: includes/wrc-scripts.php:59
+msgid "<b>User \"B\"</b> makes a purchase with <b>user \"A\"</b> coupon"
+msgstr ""
+
+#: includes/wrc-scripts.php:60
+msgid "<b>User \"B\"</b> order is marked as complete by store admin"
+msgstr ""
+
+#: includes/wrc-scripts.php:61
+msgid "<b>User \"A\"</b> recieves a discount coupon on his email"
+msgstr ""
+
+#: includes/wrc-scripts.php:63
+msgid "See plugin settings to configure coupons."
+msgstr ""
+
+#: includes/wrc-scripts.php:68
+msgid "Generate coupon for all users"
+msgstr ""
+
+#: includes/wrc-scripts.php:69
+msgid ""
+"Referral coupons will be generated with current settings for all users if "
+"they don't already have one."
+msgstr ""
+
+#: includes/wrc-scripts.php:71 includes/wrc-scripts.php:77
+#: includes/wrc-scripts.php:86 includes/wrc-scripts.php:95
+#: includes/wrc-scripts.php:101
+msgid "Working..."
+msgstr ""
+
+#: includes/wrc-scripts.php:74
+msgid "Update coupon settings for all coupons"
+msgstr ""
+
+#: includes/wrc-scripts.php:75
+msgid "Referral and prize coupons will be updated with current settings."
+msgstr ""
+
+#: includes/wrc-scripts.php:76
+msgid "Update coupons"
+msgstr ""
+
+#: includes/wrc-scripts.php:81 includes/wrc-scripts.php:90
+msgid "Enable"
+msgstr ""
+
+#: includes/wrc-scripts.php:81 includes/wrc-scripts.php:90
+msgid "Disable"
+msgstr ""
+
+#: includes/wrc-scripts.php:83 includes/wrc-scripts.php:85
+msgid "referral coupons"
+msgstr ""
+
+#: includes/wrc-scripts.php:84
+msgid "Users won't be able to use referral coupons if they are disabled."
+msgstr ""
+
+#: includes/wrc-scripts.php:92 includes/wrc-scripts.php:94
+msgid "prize coupons"
+msgstr ""
+
+#: includes/wrc-scripts.php:93
+msgid "Users won't be able to use prize coupons if they are disabled."
+msgstr ""
+
+#: includes/wrc-scripts.php:98
+msgid "Delete all referral and prize coupons"
+msgstr ""
+
+#: includes/wrc-scripts.php:99
+msgid "Referral and prize coupons will be deleted."
+msgstr ""
+
+#: includes/wrc-scripts.php:100
+msgid "Delete coupons"
+msgstr ""
+
+#: includes/wrc-scripts.php:116
+msgid "Referral coupon settings"
+msgstr ""
+
+#: includes/wrc-scripts.php:119 includes/wrc-scripts.php:198
+msgid "Coupon name prefix"
+msgstr ""
+
+#: includes/wrc-scripts.php:123 includes/wrc-scripts.php:202
+msgid "Discount type"
+msgstr ""
+
+#: includes/wrc-scripts.php:126 includes/wrc-scripts.php:205
+msgid "Percent"
+msgstr ""
+
+#: includes/wrc-scripts.php:127 includes/wrc-scripts.php:206
+msgid "Fixed Cart"
+msgstr ""
+
+#: includes/wrc-scripts.php:132 includes/wrc-scripts.php:211
+msgid "Discount amount"
+msgstr ""
+
+#: includes/wrc-scripts.php:136 includes/wrc-scripts.php:215
+msgid "Individual coupon"
+msgstr ""
+
+#: includes/wrc-scripts.php:138 includes/wrc-scripts.php:167
+#: includes/wrc-scripts.php:217 includes/wrc-scripts.php:244
+msgid "Yes"
+msgstr ""
+
+#: includes/wrc-scripts.php:139 includes/wrc-scripts.php:168
+#: includes/wrc-scripts.php:218 includes/wrc-scripts.php:245
+msgid "No"
+msgstr ""
+
+#: includes/wrc-scripts.php:143 includes/wrc-scripts.php:222
+msgid "Product IDs"
+msgstr ""
+
+#: includes/wrc-scripts.php:145 includes/wrc-scripts.php:224
+msgid ""
+"Product IDs this coupon can be used with (comma separated). Leave blank to "
+"use coupon on all products."
+msgstr ""
+
+#: includes/wrc-scripts.php:148 includes/wrc-scripts.php:227
+msgid "Exclude Product IDs"
+msgstr ""
+
+#: includes/wrc-scripts.php:150 includes/wrc-scripts.php:229
+msgid "Product IDs this coupon cannot be used with (comma separated)."
+msgstr ""
+
+#: includes/wrc-scripts.php:153 includes/wrc-scripts.php:232
+msgid "Coupon usage limit"
+msgstr ""
+
+#: includes/wrc-scripts.php:155 includes/wrc-scripts.php:234
+msgid ""
+"Amount of times this coupon can be used globally. Leave blank for unlimited "
+"times."
+msgstr ""
+
+#: includes/wrc-scripts.php:159 includes/wrc-scripts.php:237
+msgid "Coupon expiry after creation"
+msgstr ""
+
+#: includes/wrc-scripts.php:161 includes/wrc-scripts.php:239
+msgid ""
+"Days after creation for coupon to expire. Leave blank for no expiration."
+msgstr ""
+
+#: includes/wrc-scripts.php:165 includes/wrc-scripts.php:242
+msgid "Apply before Tax"
+msgstr ""
+
+#: includes/wrc-scripts.php:172 includes/wrc-scripts.php:249
+msgid "Coupon usage limit per user"
+msgstr ""
+
+#: includes/wrc-scripts.php:174 includes/wrc-scripts.php:251
+msgid ""
+"Amount of times this coupon can be used by a customer. Leave blank for "
+"unlimited times."
+msgstr ""
+
+#: includes/wrc-scripts.php:177 includes/wrc-scripts.php:254
+msgid "Minimum amount"
+msgstr ""
+
+#: includes/wrc-scripts.php:179 includes/wrc-scripts.php:256
+msgid ""
+"Minimum spend amount that must be met before this coupon can be used. Leave "
+"blank for none."
+msgstr ""
+
+#: includes/wrc-scripts.php:182 includes/wrc-scripts.php:259
+msgid "Maximum amount"
+msgstr ""
+
+#: includes/wrc-scripts.php:184 includes/wrc-scripts.php:261
+msgid ""
+"Maximum spend amount that must be met before this coupon can be used. Leave "
+"blank for none."
+msgstr ""
+
+#: includes/wrc-scripts.php:195
+msgid "Prize coupon settings"
+msgstr ""
+
+#: includes/wrc-scripts.php:290
+msgid "Plugin made by"
+msgstr ""
+
+#: includes/wrc-scripts.php:290
+msgid "Feel free to contribute to the plugin!"
+msgstr ""
+
+#: includes/wrc-scripts.php:290
+msgid "Visit the"
+msgstr ""
+
+#: includes/wrc-scripts.php:290
+msgid "repo"
+msgstr ""
+
+#: includes/wrc-scripts.php:582
+msgid "You've got a new coupon!"
+msgstr ""
+
+#: includes/wrc-scripts.php:623 includes/wrc-scripts.php:626
+#: includes/wrc-scripts.php:637
+msgid "You can't use this coupon."
+msgstr ""
+
+#: includes/wrc-scripts.php:633
+msgid "You can't use your own coupon, share it with your friends!"
+msgstr ""
+
+#: includes/wrc-scripts.php:656
+msgid "Owner"
+msgstr ""
+
+#: includes/wrc-scripts.php:657
+msgid "Type"
+msgstr ""
+
+#: includes/wrc-scripts.php:718
+msgid "Referral coupons"
+msgstr ""
+
+#: includes/wrc-scripts.php:753
+msgid "Expires"
+msgstr ""
+
+#: includes/wrc-scripts.php:759
+msgid "Uses left"
+msgstr ""
+
+#: includes/wrc-scripts.php:763
+msgid "off"
+msgstr ""
+
+#: includes/wrc-scripts.php:767
+msgid "Coupon expired"
+msgstr ""
+
+#: includes/wrc-scripts.php:813
+msgid ""
+"Every time a user uses your discount coupon code, you'll recieve a discount "
+"coupon. Share it with your friends!"
+msgstr ""
+
+#: includes/wrc-scripts.php:814
+msgid "My referral coupon"
+msgstr ""
+
+#: includes/wrc-scripts.php:815
+msgid "You don't have a referral coupon yet."
+msgstr ""
+
+#: includes/wrc-scripts.php:816
+msgid "My prize coupons"
+msgstr ""
+
+#: includes/wrc-scripts.php:817
+msgid "You don't have any prize coupons yet."
+msgstr ""
+
+#: includes/wrc-scripts.php:833
+msgid ""
+"Share your invite coupon with your friends. You'll earn a discount coupon "
+"when they start buying."
+msgstr ""
+
+#: includes/wrc-scripts.php:833
+msgid "Learn more"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Generates store coupons for registered users. When an order with a referral "
+"coupon is completed, the referrer will recieve a new coupon for him."
+msgstr ""
+
+#. Author of the plugin
+msgid "Jaime Lozano"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://lozanojai.me"
+msgstr ""
+
+msgid "Hello! Someone used your referral coupon, so you recieve one too!"
+msgstr ""
+
+msgid "Use the coupon"
+msgstr ""
+
+msgid "on your next purchase."
+msgstr ""
+
+msgid "Cheers!"
+msgstr ""

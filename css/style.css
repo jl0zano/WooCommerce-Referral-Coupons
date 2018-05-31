@@ -1,0 +1,53 @@
+.wrc-coupon-type{
+	background: black;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.wrc-coupon-expired-overlay{
+	    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0px;
+    background: #b7b7b78f;
+}
+
+.wrc-coupon-divisor{
+position: relative;
+    padding: 10px 5px;
+    margin-top: 5px;
+    border: 1px dashed black;
+}
+
+.wrc-coupon-expired-overlay p{
+text-align: center;
+    position: absolute;
+    background: #ab0000;
+    color: white;
+    /* bottom: 0px; */
+    width: 100%;
+    font-weight: bold;
+}
+
+.wrc-coupon-title{margin-top: 0px;}
+
+.wrc-share-site{color:#000;}
+
+.wrc-share-site, .wrc-share-site:hover, .wrc-share-site:active, .wrc-share-site:visited, .wrc-share-site:focus {
+    text-decoration:none;
+    color: #000;
+}
+
+.wcr-visible-xs{display: none;}
+
+/* Smartphones (portrait and landscape) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .wcr-visible-xs{
+        display:inline-block;
+    }
+}
